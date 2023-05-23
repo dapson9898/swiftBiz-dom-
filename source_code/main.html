@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwiftBiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/cecfb861f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="container">
+        <aside>
+            <div class="logo">
+                <h1>SWIFT<span>BIZ</span></h1>
+                <small>A home for small and large Business</small>
+            </div>
+            <div class="products">
+                <div>
+                    <h4>30</h4>
+                    <small>Sells</small>
+                </div>
+                <div>
+                    <h4>25</h4>
+                    <small>Purchase</small>
+                </div>
+            </div>
+            <div class="menu">
+                <h5>MENU</h5>
+                <ul>
+                    <li id="dashboard"><a href="#"><span><i class="fa-solid fa-house"></i></span><h6>DASHBOARD</h6></a></li>
+                    <li id="cashbook"><a href="#"><span><i class="fa-solid fa-chart-simple"></i></span><h6>CASHBOOK</h6></a></li>
+                    <li id="creditbook"><a href="#"><span><i class="fa-solid fa-list"></i></span><h6>CREDITBOOK</h6></a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-bookmark"></i></span><h6>SALES AND INVOICE</h6></a></li>
+                </ul>
+            </div>
+            <div class="theme">
+                <div class="icons">
+                    <span class="active"><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+                </div>
+                <small>Dark Mode</small>
+            </div>
+        </aside>
+        <main>
+            <header>
+                <div class="heading">
+                    <h4>DASHBOARD</h4>
+                </div>
+                <div class="months">
+                    <select>
+                        <option>month</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                    </select>
+                </div>
+                <div class="users">
+                    <div>
+                        <h6>Oladapson</h6>
+                        <small>Online</small>
+                    </div>
+                    <img src="../assets/profile-8.jpg"/>
+                </div>
+            </header>
+            <div class="dashboard-components">
+                <div class="cards">
+                    <article>
+                        <h5><span><i class="fa-solid fa-chart-simple"></i></span></h5>
+                        <h4>$20,000</h4>
+                        <p>Total Capital</p>
+                    </article>
+    
+                    <article>
+                        <h5><span class="span2"><i class="fa-solid fa-chart-simple"></i></span></h5>
+                        <h4>$25,000</h4>
+                        <p>Total Income</p>
+                    </article>
+    
+                    <article>
+                        <h5><span class="span3"><i class="fa-solid fa-chart-simple"></i></span></h5>
+                        <h4>$10,000</h4>
+                        <p>Total Spend</p>
+                    </article>
+    
+                    <article>
+                        <h5><span class="span4"><i class="fa-solid fa-chart-simple"></i></span></h5>
+                        <h4>$5,000</h4>
+                        <p>Total Profit</p>
+                    </article>
+                </div>
+            </div>
+            <!-- End of Dashboard components -->
+            <div class="cashbook-components">
+                <section class="list-of-cashbook">
+                    <h3>List of Cashbooks</h3>
+
+                    <div class="cash-card">
+                        <div class="card-head">
+                            <h5>Cashbook Name</h5>
+                            <button>Close Book</button>
+                        </div>
+                        <div class="card-date">
+                            <span>From: 20/02/2023</span>
+                            <span>To: 20/03/2023</span>
+                        </div>
+                    </div>
+                    <div class="cash-card">
+                        <div class="card-head">
+                            <h5>Cashbook Name</h5>
+                            <button class="closed">Closed Book</button>
+                        </div>
+                        <div class="card-date">
+                            <span>From: 20/02/2023</span>
+                            <span>To: 20/03/2023</span>
+                        </div>
+                    </div>
+                    <div class="cash-card">
+                        <div class="card-head">
+                            <h5>Cashbook Name</h5>
+                            <button>Close Book</button>
+                        </div>
+                        <div class="card-date">
+                            <span>From: 20/02/2023</span>
+                            <span>To: ----------</span>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="cashbook-container">
+                    <!-- cashbook contents -->
+                    <div class="query-buttons">
+                        <button>Credit</button>
+                        <button>Debit</button>
+                    </div>
+                    <div class="cashbook-body">
+                        <div class="cashbook-header">
+                            <h4>Cashbook Name</h4>
+                        </div>
+                        <div class="cashbook-content">
+                            <!-- content coming soon -->
+                            <div class="activity">
+                                <div class="name-amount">
+                                    <button>+</button>
+                                    <h5>Name of activity</h5>
+                                    <h5>10,000.00</h5>
+                                </div>
+                                <div class="p-container">
+                                   <p class="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsum quod consequuntur. Cum sint dignissimos praesentium architecto nostrum nisi facilis?</p> 
+                                </div>
+                            </div>
+
+                            <div class="activity">
+                                <div class="name-amount">
+                                    <button>+</button>
+                                    <h5>Name of activity</h5>
+                                    <h5>10,000.00</h5>
+                                </div>
+                                <div class="p-container">
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsum quod consequuntur. Cum sint dignissimos praesentium architecto nostrum nisi facilis?</p> 
+                                </div>
+                            </div>
+
+                            <div class="activity">
+                                <div class="name-amount">
+                                    <button>+</button>
+                                    <h5>Name of activity</h5>
+                                    <h5>10,000.00</h5>
+                                </div>
+                                <div class="p-container">
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsum quod consequuntur. Cum sint dignissimos praesentium architecto nostrum nisi facilis?</p> 
+                                </div>
+                            </div>
+
+                            <div class="activity">
+                                <div class="name-amount">
+                                    <button>+</button>
+                                    <h5>Name of activity</h5>
+                                    <h5>10,000.00</h5>
+                                </div>
+                                <div class="p-container">
+                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate ipsum quod consequuntur. Cum sint dignissimos praesentium architecto nostrum nisi facilis?</p> 
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="cashbook-footer">
+                            <button><span><i class="fa-solid fa-download"></i></span>PDF</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="creditbook-components">
+                <h3>+2348161702635</h3>
+                <section class="section">
+                    <section class="list-of-creditbook">
+                        <div class="credit-sec1">
+                            <button class="customer">Customers</button>
+                            <button class="supplier">Suppliers</button>
+                        </div>
+                        <div class="credit-sec2">
+                            <h4>3 Customers</h4>
+                            <div class="buttons">
+                                <button class="pdf">P</button>
+                                <button class="add">+C</button>
+                            </div>
+                        </div>
+                        <div class="credit-sec3">
+                            <div class="sec-top">
+                                <div class="sec-left">
+                                    <p>I got</p>
+                                    <p>1000</p>
+                                </div>
+                                <div class="sec-right">
+                                    <p>I gave</p>
+                                    <p>1000</p>
+                                </div>
+                            </div>
+                            <div class="sec-but">
+                                <div class="search-bar"><input type="search" placeholder="Search"></div>
+                                <button>--</button>
+                            </div>
+                        </div>
+                        <div class="credit-sec4">
+                            <div class="credit">
+                                <div class="creditleft">
+                                    <div class="img"></div>
+                                    <section>
+                                        <p>May 11 at 13:55</p>
+                                        <small>Balance N 5000</small>
+                                    </section>
+                                </div>
+                                <div class="creditright">
+                                    <p>N 3000</p>
+                                    <small>I got</small>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <section class="activity-creditbook">
+                        <div class="details">
+                            <div class="detail1">
+                                <p><span>mww</span></p>
+                                <small>View contact detail <span></span></small>
+                            </div>
+                            <div class="detail2">
+                                <button>All^</button>
+                                <button>^Download</button>
+                            </div>
+                        </div>
+                        <div class="bal">
+                            <div class="bal1">
+                                <p>Balance</p>
+                                <span>N 5 000</span>
+                            </div>
+                            <div class="bal2">
+                                <div class="summ">
+                                    <p>I got N<span>13 000</span></p>
+                                    <p>I gave N<span>13 000</span></p>
+                                </div>
+                                <div class="butt">
+                                    <button>I got</button>
+                                    <button>I  gave</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="transactions">
+                            <p>3 Transactions</p>
+                            <div class="trans-list">
+                                <div class="trans">
+                                    <div class="transleft">
+                                        <div class="img"></div>
+                                        <section>
+                                            <p>May 11 at 13:55</p>
+                                            <small>Balance N 5000</small>
+                                        </section>
+                                    </div>
+                                    <div class="transright">
+                                        <p>N 3000</p>
+                                        <small>I got</small>
+                                    </div>
+                                </div>
+
+                                <div class="trans">
+                                    <div class="transleft">
+                                        <div class="img"></div>
+                                        <section>
+                                            <p>May 11 at 13:55</p>
+                                            <small>Balance N 5000</small>
+                                        </section>
+                                    </div>
+                                    <div class="transright">
+                                        <p>N 3000</p>
+                                        <small>I got</small>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+
+
+
+
+
+
+        <div class="add-costomer">
+            <div class="recent-activities">
+                <h3>RECENT ACTIVITIES</h3>
+                <article>
+                    <img src="../assets/profile-20.jpg"/>
+                    <div>
+                        <h5>You've bought 4 BMW</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+                <article>
+                    <img src="../assets/profile-11.jpg"/>
+                    <div>
+                        <h5>You've order 1 ferrari</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+                <article>
+                    <img src="../assets/profile-10.jpg"/>
+                    <div>
+                        <h5>You've Sell 4 BMW</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+            </div>
+
+            <div class="recent-activities suppliers">
+                <h3>TOP SUPPLIERS</h3>
+                <article>
+                    <img src="../assets/profile-7.jpg"/>
+                    <div>
+                        <h5>Apple Inc.</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+                <article>
+                    <img src="../assets/profile-8.jpg"/>
+                    <div>
+                        <h5>Google Alphabet</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+                <article>
+                    <img src="../assets/profile-9.jpg"/>
+                    <div>
+                        <h5>MIcrosoft Inc.</h5>
+                        <small>BMW is the fastest car in the universe</small>
+                    </div>
+                </article>
+            </div>
+        </div>
+   </div>
+   <script src="./app.js"></script>
+</body>
+</html>
